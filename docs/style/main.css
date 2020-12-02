@@ -36,19 +36,19 @@ display: block;
   -webkit-user-select: none;
   user-select: none;
 }
-
-#menuToggle a
+ 
+.lds
 {
   text-decoration: none;
   color: #232323;
-  
+  font-family: sans-serif;
   transition: color 0.3s ease;
-}
 
-#menuToggle a:hover
-{
-  color: tomato;
 }
+.lds:hover
+{
+  color:#2B2A73;
+} 
 
 
 #menuToggle input
@@ -172,4 +172,35 @@ display: block;
   width: 100%;
   color: #fff;
   margin-top: 90%;
+}
+
+.spoti{
+  text-decoration: none;
+  color: #232323;
+  font-family: sans-serif;
+  transition: color 0.3s ease;
+}
+.sc{
+  text-decoration: none;
+  color: #232323;
+  font-family: sans-serif;
+  transition: color 0.3s ease;
+}
+.yt{
+  text-decoration: none;
+  color: #232323;
+  font-family: sans-serif;
+  transition: color 0.3s ease;
+}
+.spoti:hover
+{
+  color: #0e7b00;
+}
+.sc:hover
+{
+  color: rgb(255, 81, 0)
+}
+.yt:hover
+{
+  color: rgb(255, 0, 0);
 }
