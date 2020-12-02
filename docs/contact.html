@@ -33,21 +33,39 @@
           but hey, it's pure CSS magic.
           -->
           <ul id="menu">
-            <a href="index.html"><li>Home</li></a>
-            <a href="about.html"><li>About</li></a>
-            <a href="info.html"><li>Info</li></a>
-            <a href="#"><li>Contact(current)</li></a>
+            <a href="index.html" class="lds"><li>Home</li></a>
+            <a href="about.html" class="lds"><li>About</li></a>
+            <a href="info.html" class="lds"><li>Info</li></a>
+            <a href="#" class="lds"><li>Contact(current)</li></a>
             <a href="https://open.spotify.com/artist/0KDBI3UX0wHvCNgNndxWRn?si=F4ugKdVsTcyOsan7oJFzhA" target="_blank" class="spoti"><li>Spotify</li></a>
             <a href="https://soundcloud.com/maci-479416658" target="_blank" class="sc"><li>Soundcloud</li></a>
             <a href="https://www.youtube.com/channel/UCAdjA2fFsFnA62IIJTb49XA" target="_blank" class="yt"><li>Youtube</li></a>
           </ul>
         </div> 
       </nav>
-    <div><p class="txt">The music producer</p></div>  
-    <div><h1 class="title"><link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet"> mAcióś</h1></div>
+    <div><p class="txttyt">Contact:</p></div> 
+    <div><p class="txt">My e-mail:<br><br>macios.yt.sc@gmail.com<br><br>Phone number:<br><br>505141694</p></div> 
     <h2 class="footer">
-      <p>© 2020 mAciej suchAnek</p>
+     
     </h2>
-   
+    <form action="mailto: macio.yt.sc@gmail.com">
+
+        <fieldset class="fieldset">
+            <p class="p">Your e-mail adress:</p> <input type="email" name="mail" required="" class="mail"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,63}$"><br>
+            <p class="p">First name and last name:</p> <input type="text" name="imie_i_nazwisko" required="" maxlength="30" class="name"><br>
+            <p class="p">Message subject:</p> <input type="text" name="temat" maxlength="50" required=""
+               class="temat"><br>
+            <p class="p">Message content:</p><br><textarea name="tresc" cols="20" rows="3" class="tresc"
+                style="width: 169px; height: 91px;"></textarea><br>
+                <label class="container">Data processing agreement:
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+                
+            <input type="submit" name="submit" value="Send" class="wyslij">
+        </fieldset>
+    </form> 
+    <p><link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">© 2020 mAciej suchAnek</p>
 </body>
 </html>
