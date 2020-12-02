@@ -1,0 +1,28 @@
+body{
+     /* background-color: #000; 
+     background-image: url('bgphoto.png');
+display: block;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+    
+}
+
+.divbg{
+    /* background-image: url('bgphoto.png');
+    display: flex;
+    margin: auto;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+}
+
+.title{
+    display: flex;
+    font-family: 'Major Mono Display', monospace;
+    padding: 0%;
+    margin-top: 0px;
+    margin-left: 0%;
+    transform: rotate(-90deg);
+    color: #FFFF00;
+}
